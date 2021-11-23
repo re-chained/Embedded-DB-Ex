@@ -1,7 +1,7 @@
 TODO:
 Add logs to a table for redundancy
 Make it so each user can only log in once
-Add admin/superuser that can do user administration
+*Add admin/superuser that can do user administration
 	*Add ability to remove user
 	Add ability to change username/password
 
@@ -14,10 +14,7 @@ At first there will be no users. On first program startup or during installation
 admin/superuser account would need to be created. Then other accounts can be created from there.
 
 
-Some username/passwords already present in users.sqlite are:
-root	pass
-test	test
-
+Use root/pass to log in, all other accounts seen's passwords are their usernames.
 More can be added through user admin window.
 
 OPTIONAL:
