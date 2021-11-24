@@ -1,18 +1,15 @@
 TODO:
-Add logs to a table for redundancy
+-Add logs to a table for redundancy-
+	Add grid to view logs in user admin
+	Possibly create log.sqlite if it doesn't exist
 Make it so each user can only log in once
 *Add admin/superuser that can do user administration
 	*Add ability to remove user
 	Add ability to change username/password
 
-As of now log ins/log outs are tracked in log.txt. It will append any log ins/outs to that file,
-or create it and start over if it doesn't exist.
-
-
 Conceptually, here's how it could work:
 At first there will be no users. On first program startup or during installation process,
 admin/superuser account would need to be created. Then other accounts can be created from there.
-
 
 Use root/pass to log in, all other accounts seen's passwords are their usernames.
 More can be added through user admin window.
