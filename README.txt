@@ -3,6 +3,11 @@ TODO:
 	Add grid to view logs in user admin
 	Possibly create log.sqlite if it doesn't exist
 Make it so each user can only log in once
+	//Add field to user table that flags them as "connected"
+		-problem if unexpected closure happens
+	//Add field to user table that flags if the user closed the program correctly
+	//ClosedSuccessfully - default for new users is TRUE, set to FALSE during runtime,
+	//if unexpected closure happens can check that flag, see if connected flag is set, and unset it
 *Add admin/superuser that can do user administration
 	*Add ability to remove user
 	Add ability to change username/password
